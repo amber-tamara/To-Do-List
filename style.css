@@ -1,0 +1,70 @@
+* {
+  font-family: Lato, Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-image: url("run.jpg");
+  background-repeat: no-repeat;
+  height: 100%;
+  background-size: cover;
+}
+
+img {
+  max-width: 20px;
+  cursor: pointer;
+}
+
+.title {
+  margin-top: 0;
+  text-align: center;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+}
+
+#input-field {
+  height: 22px;
+}
+
+.todo-button {
+  height: 28px;
+  background-color: #d3d3d3;
+  border-color: #d3d3d3;
+  object-fit: contain;
+}
+
+.todo {
+  margin-top: 15px;
+  display: flex;
+}
+
+.todo-list {
+  padding: 0;
+  margin: 0;
+}
+
+.newTodo {
+  padding: 5px;
+  list-style-type: none;
+  border-bottom: 2px solid black;
+  width: 164px;
+  height: 20px;
+}
+
+.newButton {
+  width: 32px;
+  height: 32px;
+  cursor: pointer;
+  background-image: url("tick.svg");
+  background-repeat: no-repeat;
+}
+
+.box {
+  border: 2px solid black;
+  max-width: 40vh;
+  margin: 0 auto;
+  padding: 40px;
+}
